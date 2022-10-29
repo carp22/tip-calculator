@@ -5,9 +5,18 @@
 }
 
 body{
+    
     background-color: #c5e5e6;
 }
+.tip-calculator-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 90vh;
+}
 .tip-header{
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,6 +192,7 @@ body{
 }
 
 .numberPeople-input{
+    width: auto;
     font-size: 25px;
     font-weight: 700;
     text-align: right;

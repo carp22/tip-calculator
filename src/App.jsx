@@ -57,7 +57,7 @@ function App() {
   }
 
   return (
-    <div >
+    <div className='tip-calculator-app'>
       <Header />
       <div className='body-tip'>
         <Tip 

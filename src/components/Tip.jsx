@@ -13,8 +13,9 @@ function Tip(props) {
                 <h3 style={{color: "#687a7c"}} className="total-bill_label" >Bill</h3>
                 <FontAwesomeIcon icon={faDollarSign} className="dollar-icon"/>
                 <input 
-                    type="text" 
+                    type="number" 
                     min={1}
+                    max={50000}
                     placeholder="0"
                     name='totalBill' className='total-bill_input' 
                     value={parseInt(props.billInformation.totalBill) == 0 ? "" : parseInt(props.billInformation.totalBill)} 
