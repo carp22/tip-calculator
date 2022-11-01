@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Header from './components/Header'
 import Reset from './components/Reset'
 import Tip from './components/Tip'
 import splitter from '/../public/images/logo.svg'
