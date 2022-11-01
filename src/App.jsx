@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import Header from './components/Header'
 import Reset from './components/Reset'
 import Tip from './components/Tip'
-import splitter from '/../public/images/logo.svg'
 
 
 function App() {
@@ -58,9 +58,7 @@ function App() {
 
   return (
     <div className='tip-calculator-app'>
-      <div className='tip-header'>
-            <img src={splitter} className='header-title' />
-        </div>
+      <Header />
       <div className='body-tip'>
         <Tip 
           selection={selectedButton}
