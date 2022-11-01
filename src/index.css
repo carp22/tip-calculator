@@ -245,6 +245,14 @@ body{
     font-size: 1rem;
 }
 @media all and (max-width: 800px) {
+    .tip-calculator-app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: auto;
+    
+    }
     .body-tip{
         display: flex;
         width: 100%;
