@@ -201,21 +201,6 @@ body{
     border-style: hidden;
     border-radius: 7px;
 }
-.input-group{
-    position: relative;
-}
-.dollar-icon{
-    position: absolute;
-    top: 75px;
-    left: 10px;
-    color: #aababd;
-}
-.user-icon{
-    position: absolute;
-    color: #aababd;
-    left: 10px;
-    top: 10px;
-}
 .numberPeople-input:hover{
     cursor: pointer;
 }
@@ -231,6 +216,22 @@ body{
     border-radius: 7px;
     outline-color: #cda298
 }
+.input-group{
+    position: relative;
+}
+.dollar-icon{
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    color: #aababd;
+}
+.user-icon{
+    position: absolute;
+    color: #aababd;
+    left: 10px;
+    top: 10px;
+}
+
 .numberPeople-label{
     font-size: 15.5px;
 }
